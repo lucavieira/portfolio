@@ -1,14 +1,20 @@
+import Body from "./assets/styles/Body";
 import Header from "./assets/styles/Header";
-import Titulo from "./assets/styles/Titulo";
+import Introducao from "./components/Introducao";
 import Navbar from "./components/Navbar";
+import SobreMim from "./components/SobreMim";
 
 function App() {
   return (
     <>
       <Header>
-        <Titulo>Portfólio</Titulo>
+        <h2>Portfólio</h2>
         <Navbar></Navbar>
       </Header>
+      <Body>
+        <Introducao></Introducao>
+        <SobreMim></SobreMim>
+      </Body>
     </>
   );
 }

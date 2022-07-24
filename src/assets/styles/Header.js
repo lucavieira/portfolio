@@ -10,6 +10,14 @@ const Header = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    h2 {
+        font-size: 24px;
+        color: #F9F9F9;
+        
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
 `
 
 export default Header
