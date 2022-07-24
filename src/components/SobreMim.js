@@ -11,7 +11,6 @@ const Resumo = styled.p`
     text-align: center;
     font-weight: 200;
     color: #828282;
-    margin-top: 30px;
 `
 
 const Dados = styled.div`
@@ -21,7 +20,7 @@ const Dados = styled.div`
     display: flex;
     justify-content: space-between;
 
-    margin-top: 75px;
+    margin-top: 50px;
 `
 
 const Dado = styled.div`

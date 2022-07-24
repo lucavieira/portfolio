@@ -2,6 +2,7 @@ import Body from "./assets/styles/Body";
 import Header from "./assets/styles/Header";
 import Introducao from "./components/Introducao";
 import Navbar from "./components/Navbar";
+import Projetos from "./components/Projetos";
 import SobreMim from "./components/SobreMim";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Body>
         <Introducao></Introducao>
         <SobreMim></SobreMim>
+        <Projetos></Projetos>
       </Body>
     </>
   );
