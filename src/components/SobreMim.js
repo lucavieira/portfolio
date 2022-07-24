@@ -58,6 +58,11 @@ const Subtitulo = styled.p`
     color: #828282;
 `
 
+const Links = styled.a`
+    color: #828282;
+    text-decoration: none;
+`
+
 const SobreMim = () => {
     return (
         <Container className="container_center">
@@ -83,21 +88,27 @@ const SobreMim = () => {
                         <img src={Email}></img>
                     </Item>
                     <Titulo>Email</Titulo>
-                    <Subtitulo>lukasveras14@gmail.com</Subtitulo>
+                    <Subtitulo>
+                        <Links href="mailto:lukasveras14@gmail.com">lukasveras14@gmail.com</Links>
+                    </Subtitulo>
                 </Dado>
                 <Dado>
                     <Item>
                         <img src={Instagram}></img>
                     </Item>
                     <Titulo>Instagram</Titulo>
-                    <Subtitulo>@_lucass_vieira_</Subtitulo>
+                    <Subtitulo>
+                        <Links href="https://www.instagram.com/_lucass_vieira_/" target="_blank">@_lucass_vieira_</Links>
+                    </Subtitulo>
                 </Dado>
                 <Dado>
                     <Item>
                         <img src={Phone}></img>
                     </Item>
                     <Titulo>Telefone</Titulo>
-                    <Subtitulo>(85) 98181-0053</Subtitulo>
+                    <Subtitulo>
+                        <Links href="tel:85981810053">(85) 98181-0053</Links>
+                    </Subtitulo>
                 </Dado>
             </Dados>
         </Container>

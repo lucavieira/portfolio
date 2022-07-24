@@ -13,6 +13,8 @@ const Container = styled.div`
 
     &.container_espacado {
         justify-content: space-between;
+        align-items: center;
+        max-width: 950px;
     }
 
     h2 {

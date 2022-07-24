@@ -6,7 +6,7 @@ const Body = styled.div`
     align-items: center;
     gap: 120px;
 
-    margin-top: 120px;
+    margin-top: 40px;
 `
 
 export default Body
