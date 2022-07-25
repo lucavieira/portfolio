@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Container from "../assets/styles/Container";
+import Container from "../../assets/styles/Container";
 import Projeto from "./Projeto";
 
 const ContainerProjetos = styled.div`

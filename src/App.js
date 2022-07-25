@@ -1,9 +1,10 @@
 import Body from "./assets/styles/Body";
 import Header from "./assets/styles/Header";
-import Introducao from "./components/Introducao";
+import Introducao from "./components/Introducao/Introducao";
 import Navbar from "./components/Navbar";
-import Projetos from "./components/Projetos";
-import SobreMim from "./components/SobreMim";
+import Projetos from "./components/Projetos/Projetos";
+import Servicos from "./components/Servicos/Servicos";
+import SobreMim from "./components/SobreMim/SobreMim";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Introducao></Introducao>
         <SobreMim></SobreMim>
         <Projetos></Projetos>
+        <Servicos></Servicos>
       </Body>
     </>
   );

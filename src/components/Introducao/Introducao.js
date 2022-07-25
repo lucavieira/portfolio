@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Container from "../assets/styles/Container";
+import Container from "../../assets/styles/Container";
 import Apresentacao from "./Apresentacao";
 
-import avatar from "../assets/images/avatar_pc.png"
+import avatar from "../../assets/images/avatar/avatar_pc.png"
 
 const Avatar = styled.img`
   width: 300px;

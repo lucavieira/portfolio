@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Container from "../assets/styles/Container";
+import Container from "../../assets/styles/Container";
 
-import RostoFeliz from "../assets/images/happy_face.png"
-import Phone from "../assets/images/phone.png"
-import Instagram from "../assets/images/instagram.png"
-import Email from "../assets/images/email.png"
+import RostoFeliz from "../../assets/images/dados/happy_face.png"
+import Phone from "../../assets/images/dados/phone.png"
+import Instagram from "../../assets/images/dados/instagram.png"
+import Email from "../../assets/images/dados/email.png"
 
 const Resumo = styled.p`
     text-align: center;
