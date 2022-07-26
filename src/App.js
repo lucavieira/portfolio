@@ -1,5 +1,6 @@
 import Body from "./assets/styles/Body";
 import Header from "./assets/styles/Header";
+import Rodape from "./components/Rodape";
 import Introducao from "./components/Introducao/Introducao";
 import Navbar from "./components/Navbar";
 import Projetos from "./components/Projetos/Projetos";
@@ -21,6 +22,7 @@ function App() {
         <Servicos></Servicos>
         <MinhasSkills></MinhasSkills>
       </Body>
+      <Rodape></Rodape>
     </>
   );
 }
