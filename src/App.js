@@ -4,6 +4,7 @@ import Introducao from "./components/Introducao/Introducao";
 import Navbar from "./components/Navbar";
 import Projetos from "./components/Projetos/Projetos";
 import Servicos from "./components/Servicos/Servicos";
+import MinhasSkills from "./components/Skills/MinhasSkills";
 import SobreMim from "./components/SobreMim/SobreMim";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <SobreMim></SobreMim>
         <Projetos></Projetos>
         <Servicos></Servicos>
+        <MinhasSkills></MinhasSkills>
       </Body>
     </>
   );
