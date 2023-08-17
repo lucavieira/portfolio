@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 
+    color: #fff;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -39,8 +40,6 @@ body {
 .titulo {
     font-size: 30px;
     font-weight: 600;
-
-    color: #fff;
 }
 
 .menu {
@@ -49,16 +48,29 @@ body {
     gap: 50px;
 
     list-style-type: none;
-}
 
-.item-menu {
-    font-size: 18px;
-    font-weight: 100;
+    .item-menu {
+        font-size: 18px;
+        font-weight: 100;
 
-    color: #fff;
-    text-decoration: none;
+        text-decoration: none;
+    }
 }
 
 .item-menu:hover {
     font-weight: 600;
+}
+
+.container-conteudo {
+    grid-area: conteudo;
+
+    padding: 0px 50px;
+}
+
+.cabecalho-conteudo {
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
