@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* CABECALHO */
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px;
+}
+
+#cabecalho #barra_navegacao {
+    display: flex;
+    align-items: center;
+}
+
+#cabecalho #barra_navegacao #menu {
+    list-style-type: none;
+
+    display: flex;
+    gap: 30px;
+}
+
+#cabecalho #barra_navegacao #menu .menu-item a {
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #000;
+
+    transition: color .5s;
+}
+
+#cabecalho #barra_navegacao #menu .menu-item a:hover {
+    color: #aaaaaa;
+}
