@@ -53,9 +53,12 @@ a {
     padding-bottom: 50px;
 }
 
+/* SOBRE MIM */
+
 #principal #sobre_mim .container {
     display: grid;
     grid-template-columns: 60% 40%;
+    align-items: center;
 }
 
 #principal #sobre_mim img {
@@ -70,6 +73,16 @@ a {
     padding: 25px;
 }
 
+#principal #sobre_mim #saiba_mais {
+    font-size: 15px;
+    font-weight: 100;
+
+    transition: color .5s;
+}
+
+#principal #sobre_mim #saiba_mais:hover {
+    color: #100090;
+}
 
 /* PROJETOS*/
 
@@ -167,4 +180,26 @@ a {
 
 #contato #formulario #botao_enviar:hover {
     background: rgba(104, 104, 104, 0.699);
+}
+
+/* RODAPÉ */
+
+#rodape {
+    display: flex;
+    padding: 30px 0px;
+
+    border-top: 1px solid #ccc;
+}
+
+#rodape p {
+    margin: auto;
+}
+
+#rodape p a {
+    font-weight: 600;
+    transition: color .5s;
+}
+
+#rodape p a:hover {
+    color: rgb(0, 94, 182);
 }
