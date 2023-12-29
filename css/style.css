@@ -12,6 +12,7 @@
     /* COLORS */
     --background: #06080F;
     --texts-highlights: #00FFFF;
+    --shadows: rgba(0, 255, 255, 0.05);
     --texts: #CECECE;
 }
 
@@ -161,6 +162,51 @@ header {
 .redes-sociais .gmail:hover {
     background: url(../assets/images/social-medias/gmail-icon-colored.svg) no-repeat center / cover;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN - SOBRE MIM */
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+
+    position: relative;
+}
+
+.sobre-mim .titulo h2 {
+    position: absolute;
+
+    font-size: 3rem;
+}
+
+.sobre-mim .titulo .sombra {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--shadows);
+
+    user-select: none;
+}
+
+/* MAIN - SOBRE MIM */
+/* MAIN - SOBRE MIM */
+/* MAIN - SOBRE MIM */
+
 
 /* ANIMAÇÕES */
 @keyframes flutuando-code {
