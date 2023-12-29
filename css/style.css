@@ -45,7 +45,7 @@ header {
     width: 250px;
 }
 
-.techs {
+.icons {
     width: 80px;
     position: absolute;
 }
@@ -203,6 +203,42 @@ main {
     user-select: none;
 }
 
+.sobre-mim .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 100px;
+}
+
+.sobre-mim .container .animacao {
+    position: relative;
+}
+
+.sobre-mim .container .animacao .my-second-avatar {
+    width: 300px;
+}
+
+#coffee {
+    top: 7%;
+    right: 88%;
+
+    animation: flutuando-coffee .9s alternate infinite;
+    animation-delay: .9s;
+    animation-timing-function: linear;
+}
+
+#headset {
+    bottom: 25%;
+    left: 50%;
+
+    animation: flutuando-headset .9s alternate infinite;
+    animation-delay: .3s;
+    animation-timing-function: linear;
+}
+
+.sobre-mim .container .historia {
+    color: #CECECE;
+}
+
 /* MAIN - SOBRE MIM */
 /* MAIN - SOBRE MIM */
 /* MAIN - SOBRE MIM */
@@ -246,5 +282,25 @@ main {
 
     to {
         bottom: 18%;
+    }
+}
+
+@keyframes flutuando-coffee {
+    from {
+        top: 7%;
+    }
+
+    to {
+        top: 9%;
+    }
+}
+
+@keyframes flutuando-headset {
+    from {
+        bottom: 25%;
+    }
+
+    to {
+        bottom: 22%;
     }
 }
