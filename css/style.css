@@ -236,7 +236,9 @@ main {
 }
 
 .sobre-mim .container .historia {
-    color: #CECECE;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--texts);
 }
 
 /* MAIN - SOBRE MIM */
