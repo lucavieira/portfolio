@@ -45,6 +45,8 @@ body {
     font-weight: 700;
     color: var(--shadows);
 
+    filter: blur(4px);
+
     user-select: none;
 }
 
