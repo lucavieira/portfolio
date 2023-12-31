@@ -24,6 +24,61 @@ body {
     color: var(--texts-highlights);
 }
 
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+
+    position: relative;
+}
+
+.titulo h2 {
+    position: absolute;
+
+    font-size: 3rem;
+}
+
+.titulo .sombra {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--shadows);
+
+    user-select: none;
+}
+
+.icons {
+    width: 80px;
+    position: absolute;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    color: #FFF;
+    background: transparent;
+
+    padding: 15px 40px;
+
+    border: 1px solid var(--texts-highlights);
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    color: #000;
+    background: var(--texts-highlights);
+}
+
+/* HEADER */
+
 header {
     display: flex;
     flex-direction: column;
@@ -43,11 +98,6 @@ header {
 
 #my-avatar {
     width: 250px;
-}
-
-.icons {
-    width: 80px;
-    position: absolute;
 }
 
 #code {
@@ -179,30 +229,6 @@ main {
     align-items: center;
 }
 
-.sobre-mim .titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #FFF;
-
-    position: relative;
-}
-
-.sobre-mim .titulo h2 {
-    position: absolute;
-
-    font-size: 3rem;
-}
-
-.sobre-mim .titulo .sombra {
-    font-size: 4.5rem;
-    font-weight: 700;
-    color: var(--shadows);
-
-    user-select: none;
-}
-
 .sobre-mim .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -241,7 +267,69 @@ main {
     color: var(--texts);
 }
 
-/* MAIN - SOBRE MIM */
+/* MAIN - PROJETOS */
+
+.projetos .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 150px;
+    gap: 100px;
+}
+
+.projetos .projeto {
+    display: flex;
+    gap: 70px;
+}
+
+.projetos .projeto:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.projeto .demo {
+    position: relative;
+}
+
+.projeto img {
+    width: 300px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.projeto .borda {
+    width: 300px;
+    height: 214px;
+
+    position: absolute;
+    top: 0px;
+    margin: 48px 0px 0px -48px;
+
+    border: 20px solid var(--texts-highlights);
+    border-radius: 10px;
+
+    z-index: -1;
+}
+
+.projeto .informacoes h3 {
+    color: #FFF;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.projeto .informacoes p {
+    color: var(--texts);
+
+    padding-top: 20px;
+
+    font-size: .8rem;
+    font-weight: 300;
+
+    text-align: justify;
+}
+
 /* MAIN - SOBRE MIM */
 /* MAIN - SOBRE MIM */
 
