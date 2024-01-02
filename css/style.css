@@ -6,6 +6,8 @@
     box-sizing: border-box;
 
     font-family: 'Inter', sans-serif;
+
+    color: #FFF;
 }
 
 :root {
@@ -28,8 +30,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    color: #FFF;
 
     position: relative;
 }
@@ -61,7 +61,6 @@ body {
 
     text-decoration: none;
 
-    color: #FFF;
     background: transparent;
 
     padding: 15px 40px;
@@ -82,7 +81,8 @@ body {
 /* HEADER */
 
 header, .avatar, .redes-sociais, main, .sobre-mim, .projetos .container, .habilidades .container,
-.container .container-habilidades, .tecnicas, .comportamentais, .habilidade-tecnica, .habilidade-comportamental {
+.container .container-habilidades, .tecnicas, .comportamentais, .habilidade-tecnica, .habilidade-comportamental, 
+.experiencia .container, .container-experiencia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +249,7 @@ main, .sobre-mim {
     animation-timing-function: linear;
 }
 
-.sobre-mim .container .historia {
+.sobre-mim .container .historia p {
     font-size: 1.1rem;
     font-weight: 300;
     color: var(--texts);
@@ -298,8 +298,6 @@ main, .sobre-mim {
 }
 
 .projeto .informacoes h3 {
-    color: #FFF;
-
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -331,8 +329,6 @@ main, .sobre-mim {
     flex-direction: column;
 
     gap: 20px;
-
-    color: #FFF;
 }
 
 .container-habilidades h2 {
@@ -356,8 +352,74 @@ main, .sobre-mim {
     padding-top: 5px;
 }
 
-/* MAIN - SOBRE MIM */
+/* MAIN - EXPERIÊNCIA */
 
+.experiencia .container {
+    flex-direction: column;
+
+    padding-top: 80px;
+}
+
+.experiencia .container .opcoes {
+    display: flex;
+
+    gap: 20px;
+}
+
+.opcoes h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.selecionado {
+    border-bottom: 3px solid var(--texts-highlights);
+}
+
+.container-experiencia {
+    max-width: 500px;
+
+    flex-direction: column;
+    gap: 40px;
+
+    margin: 40px 0px;
+}
+
+.educacional {
+    display: none;
+}
+
+.profissao, .formacao {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.container-experiencia .detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.empresa-periodo, .curso {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.periodo, .carga-horaria{
+    font-size: .6rem;
+}
+
+.cargo, .instituicao{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.detalhes .descricao {
+    font-weight: 300;
+    color: var(--texts);
+}
 
 /* ANIMAÇÕES */
 @keyframes flutuando-code {
