@@ -81,20 +81,20 @@ body {
 
 /* HEADER */
 
-header {
+header, .avatar, .redes-sociais, main, .sobre-mim, .projetos .container, .habilidades .container,
+.container .container-habilidades, .tecnicas, .comportamentais, .habilidade-tecnica, .habilidade-comportamental {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    flex-direction: column;
 
     padding: 20px 0px;
 }
 
 .avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     position: relative;
 }
 
@@ -158,10 +158,6 @@ header {
 }
 
 .redes-sociais {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     gap: 50px;
 
     position: relative;
@@ -215,21 +211,11 @@ header {
     background: url(../assets/images/social-medias/gmail-icon-colored.svg) no-repeat center / cover;
 }
 
-main {
-    display: flex;
+main, .sobre-mim {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* MAIN - SOBRE MIM */
-
-.sobre-mim {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .sobre-mim .container {
     display: grid;
@@ -272,10 +258,7 @@ main {
 /* MAIN - PROJETOS */
 
 .projetos .container {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     padding: 50px 150px;
     gap: 100px;
@@ -332,7 +315,47 @@ main {
     text-align: justify;
 }
 
-/* MAIN - SOBRE MIM */
+/* MAIN - HABILIDADES */
+
+.habilidades .container {
+    flex-direction: column;
+
+    padding: 80px 0px;
+
+    gap: 80px;
+}
+
+.container .container-habilidades {
+    max-width: 600px;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    color: #FFF;
+}
+
+.container-habilidades h2 {
+    font-size: 1.5rem;
+}
+
+.tecnicas, .comportamentais {
+    flex-flow: row wrap;
+
+    gap: 50px;
+}
+
+.habilidade-tecnica, .habilidade-comportamental {
+    flex-direction: column;
+}
+
+.habilidade-tecnica span, .habilidade-comportamental span {
+    font-size: .6rem;
+    font-weight: 300;
+
+    padding-top: 5px;
+}
+
 /* MAIN - SOBRE MIM */
 
 
