@@ -481,3 +481,28 @@ main, .sobre-mim {
         bottom: 22%;
     }
 }
+
+/* TABLET */
+
+@media (max-width: 768px) {
+    .sobre-mim .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #coffee {
+        right: 80%;
+    }
+
+    #headset {
+        left: 90%;
+    }
+
+    .projetos .projeto, .projetos .projeto:nth-child(even) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
