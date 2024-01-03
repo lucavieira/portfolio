@@ -302,6 +302,10 @@ main, .sobre-mim {
     font-weight: 700;
 }
 
+.projeto .informacoes h3 a {
+    text-decoration: none;
+}
+
 .projeto .informacoes p {
     color: var(--texts);
 
