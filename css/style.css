@@ -513,7 +513,7 @@ main, .sobre-mim {
 
 /* MOBILE */
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     #my-avatar, #my-second-avatar {
         width: 200px;
     }
