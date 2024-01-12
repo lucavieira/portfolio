@@ -174,7 +174,7 @@ header {
 .redes-sociais .wpp {
     background: url(../assets/images/social-medias/wpp-icon.svg) no-repeat center / cover;
 
-    transition: background .3s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .redes-sociais .wpp:hover {
@@ -184,7 +184,7 @@ header {
 .redes-sociais .instagram {
     background: url(../assets/images/social-medias/instagram-icon.svg) no-repeat center / cover;
 
-    transition: background .3s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .redes-sociais .instagram:hover {
@@ -194,7 +194,7 @@ header {
 .redes-sociais .linkedin {
     background: url(../assets/images/social-medias/linkedin-icon.svg) no-repeat center / cover;
 
-    transition: background .3s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .redes-sociais .linkedin:hover {
@@ -204,7 +204,7 @@ header {
 .redes-sociais .gmail {
     background: url(../assets/images/social-medias/gmail-icon.svg) no-repeat center / cover;
 
-    transition: background .3s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .redes-sociais .gmail:hover {
