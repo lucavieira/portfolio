@@ -368,6 +368,10 @@ main, .sobre-mim {
     border-bottom: 3px solid var(--texts-highlights);
 }
 
+/* .status {
+    color: rgb(0, 212, 0);
+} */
+
 .container-experiencia {
     max-width: 500px;
 
